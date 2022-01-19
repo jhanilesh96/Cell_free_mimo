@@ -620,7 +620,7 @@ class outer_genData(genData):
 
 if __name__ == '__main__':
     g = outer_genData()
-    g.params.sqside=200;
+    g.params.sqside=100;
     wcnParams = g.sampleWCN()
     gParams = g.outer_getNodeLevelGraphFromWCN(wcnParams)
     g.outer_plotWCN(wcnParams);
